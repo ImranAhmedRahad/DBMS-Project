@@ -1,0 +1,429 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header{
+    position:sticky;
+    background:white;
+    top:0;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    box-shadow:0 .5rem 1.5rem #E5E5E5;
+    width:100%;
+    height:84px;
+}
+.header a i{
+    color:#16A085;
+    font-size:33px;
+}
+
+.header a{
+    font-size:37px;
+    text-decoration:none;
+    color:black;
+}
+.header ul{
+    display:flex;
+    list-style:none;
+}
+
+.header ul li{
+   width:100px;
+   text-align:center;
+   
+}
+.header ul li a{
+    font-size:20px;
+    color:gray;
+}
+.header ul li a:hover{
+    color:#16A085;
+}
+/* home-section */
+.home-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.home-section .image{
+    width:67%;
+}
+.home-section .image img{
+    width:70%;
+}
+.home-section .content h1{
+    font-size:40px;
+    color:rgb(19, 18, 18);
+      
+}
+.home-section .content p{
+    margin-top:20px;
+    font-size:18px;
+    color:gray;
+
+}
+.home-section .content button{
+    width:148px;
+    height:42px;
+    margin-top:25px;
+    background:none;
+    border:2px solid #16A085;
+    font-size:18px;
+    font-weight:500;
+    box-shadow: 0px 0 5px 1px #b3aeae;
+    color:#15A488;
+    transition: .4s;
+
+}
+.home-section .content button:hover{
+    width:155px;
+    background:#15A488;
+    color:#fff;
+    cursor:pointer;
+}
+.home-section .content button i{
+    width:30px;
+    height:30px;
+    background:#15A488;
+    line-height:30px;
+    border-radius:4px;
+    color:#fff;
+}
+.home-section .content button:hover i{
+    background:#fff;
+    color:#15A488;
+}
+
+/* Services Section Start */
+.box{
+    margin:10px;
+    justify-content: center;
+    
+}
+.services   h1{
+
+    text-align:center;
+    font-size:50px;
+    text-shadow: 0.4rem 0.3rem 0px rgba(0,0,0,.2)
+    
+
+}
+.box{
+    display:inline-block;
+    width: 300px;
+    box-shadow: 0px 0 5px 1px #b3aeae;
+    border: 2px solid #15A488;
+    padding:30px;
+    margin:3px;
+    
+    
+}
+.box i{
+    font-size:35px;
+    color:#16A085;
+    
+}
+.box h3{
+    padding:10px 0;
+    font-size:28px;
+}
+.box p{
+   padding:10px 0;
+   color:gray;
+}
+
+.box button{
+    width:148px;
+    height:42px;
+    margin-top:25px;
+    background:none;
+    border:2px solid #16A085;
+    font-size:18px;
+    font-weight:500;
+    box-shadow: 0px 0 5px 1px #b3aeae;
+    color:#15A488;
+    transition: .4s;
+
+}
+.box button:hover{
+    width:155px;
+    background:#15A488;
+    color:#fff;
+    cursor:pointer;
+}
+.box button i{
+    width:30px;
+    height:30px;
+    background:#15A488;
+    line-height:30px;
+    border-radius:4px;
+    color:#fff;
+}
+.box button:hover i{
+    background:#fff;
+    color:#15A488;
+}
+/*about-section-design */
+.about-title{
+    text-align: center;
+    font-size:50px;
+    text-shadow: 0.4rem 0.3rem 0px rgba(0,0,0,.2);
+}
+.about.about{
+    display:flex;
+    align-items:center;
+}
+.about-section.h1{
+    font-size:65px;
+    font-weight:bolder;
+    color:#16A085;
+    text-align:center;
+    text-shadow: 0.4rem 0.3rem 0px rgba(0,0,0,.2);
+    
+}
+.about-section .about .about-left{
+    width:50%;
+}
+.about-section .about .about-left img{
+    width:100%;
+}
+.about-section .about .about-right{
+    width:50%;
+    padding:80px;
+}
+.about-section .about .about-right h1{
+    font-size:35px;
+    color:#4d4343;
+}
+.about-section .about .about-right p{
+    color:gray;
+    font-size:18px;
+}
+.about-section .about .about-right button{
+    width:166px;
+    height:53px;
+    margin-top:20px;
+    background:none;
+    border:2px solid #15A488;
+    font-size:22px;
+    font-weight:500;
+    box-shadow: 0px 0 5px 1px #b3aeae;
+    color:#15A488;
+    transition: .4s;
+    padding:7px;
+    border-radius:7px;
+}
+.about-section .about .about-right button:hover{
+    width:155px;
+    background:#15A488;
+    color:#fff;
+    cursor:pointer;
+}
+.about-section .about .about-right button i{
+    width:30px;
+    height:30px;
+    background:#15A488;
+    line-height:30px;
+    border-radius:4px;
+    color:#fff;
+}
+.about-section .about .about-right button:hover i{
+    background:#fff;
+    color:#15A488;
+
+}
+/*doctor section design */
+.doctor-section h1{
+    font-size:50px;
+    font-weight:900;
+    text-align:center;
+    text-shadow: 0.4rem 0.3rem 0px rgba(0,0,0,.2);
+    letter-spacing: .2rem;
+}
+.container{
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:50px;
+
+}
+.doctor-section .container .box{
+    margin:10px;
+    border:2px solid #16A085;
+    width:360px;
+    height:425px;
+    text-align:center;
+    border-radius: 7px;
+}
+.doctor-section .containar .box img{
+    width:230px;
+    height:215px;
+    margin-top:36px;
+    border:2px solid #16A085;
+    border-radius:7px;
+    
+}
+.doctor-section .containar .box img h3{
+    padding:10px 0;
+    font-size:28px;
+    color:#403434;
+}
+.doctor-section .containar .box span{
+    color:#16A085;
+}
+.doctor-section .containar .box .icon{
+    margin:10px 0;
+}
+.doctor-section .containar .box .icon a{
+    width:44px;
+    height:44px;
+    border:2px solid #16A085;
+    display:inline-block;
+    line-height:44px;
+    border-radius:7px;
+}
+.doctor-section .containar .box .icon a:hover{
+   background: #16A085;
+}
+.doctor-section .containar .box .icon a:hover i{
+    color:#fff;
+}
+.doctor-section .containar .box .icon a i{
+    font-size:20px;
+    color:#16A085;
+
+}
+
+/*Booking section design */
+.booking-section h1{
+    font-size:50px;
+    text-align: center;
+    color:#16A085;
+    text-transform: uppercase;
+    text-shadow: 0.4rem 0.3rem 0px rgba(0,0,0,.2);
+    letter-spacing: .2rem;
+    font-weight:bold;
+    color:#444;
+    margin-top:20px;
+}
+.booking-section .container{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-top:20px;
+
+}
+.booking-section .container .img img{
+    width:500px;
+    height:500px;
+
+}
+.booking-section .container form{
+    width:500px;
+    height:475px;
+    border:2px solid #16A085;
+    padding:25px;
+
+}
+.booking-section .container form h1{
+    font-size: 35px;
+    letter-spacing:1px;
+    padding:15px 0;
+    margin-top:22px;
+}
+.booking-section .container form .box{
+    display:block;
+    width:400px;
+    height:7px;
+    margin:10px 0;
+    border:2px solid #16A085;
+    padding-left: 10px;
+    outline:none;
+    font-size:18px;
+}
+.booking-section .container form .btn{
+    text-align: center;
+    width:100%;
+}
+.booking-section .container form .btn input{
+    width:166px;
+    height:53px;
+    margin-top:9px;
+    background:none;
+    border:2px solid #15A488;
+    font-size:22px;
+    font-weight:500;
+    box-shadow: 0px 0 5px 1px #b3aeae;
+    color:#15A488;
+    transition: .4s;
+    padding:7px;
+    border-radius:7px;
+}
+.booking-section .container form .btn input:hover{
+    background:#16A085;
+    color:#fff;
+    cursor:pointer;
+
+
+}
+/*footer-section-design */
+.footer-section .container{
+    display:flex;
+
+}
+.footer-section .container .foo-box h3{
+    font-size: 35px;
+    padding:15px 0;
+    color:#444;
+}
+.footer-section .container .foo-box{
+    width:25%;
+}
+.footer-section .container .foo-box a{
+    display: block;
+    margin:14px 0;
+    text-decoration: none;
+    color:rgb(64, 0, 0);
+    font-size: 17px;
+    
+    
+}
+.footer-section
+{
+    padding: 30px; 
+}
+
+.footer-section .container .foo-box a:hover i{
+    padding-right: 30px;
+
+}
+.footer-section .container .foo-box a i{
+    color:#16A085;
+    padding-right:5px;
+    transition:.7s;
+
+}
+.foo-box h3
+{
+    font-size: 26px;
+    color: #444;
+}
+.foo-box a{
+    display: block;
+    font-size: 18px;
+    color: rgb(64, 0, 0);
+}
+
+    
+    
+
+
